@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using WebApplication1.Models;
 
-namespace WebApplication1.Models;
+namespace WebApplication1.Data;
 
 public partial class ChinookContext : DbContext
 {
